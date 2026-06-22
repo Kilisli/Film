@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "updated": "2026-06-22T12:00:00Z",
+  "categories": [
+    {
+      "id": "aksiyon",
+      "name": "Aksiyon",
+      "thumb": "https://picsum.photos/seed/aksiyon/400/200"
+    },
+    {
+      "id": "komedi",
+      "name": "Komedi",
+      "thumb": "https://picsum.photos/seed/komedi/400/200"
+    },
+    {
+      "id": "dizi",
+      "name": "Diziler",
+      "thumb": "https://picsum.photos/seed/dizi/400/200"
+    }
+  ],
+  "playlists": [
+    {
+      "id": "aksiyon-filmleri",
+      "name": "Aksiyon Filmleri",
+      "category": "aksiyon",
+      "type": "movie",
+      "thumb": "https://picsum.photos/seed/aksiyon-liste/400/600",
+      "items": [
+        {
+          "title": "Büyük Kaçış",
+          "year": 2024,
+          "thumb": "https://picsum.photos/seed/film1/300/450",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+          "subtitles": [
+            { "lang": "Türkçe", "langCode": "tr", "url": "https://example.com/subs/film1-tr.vtt" },
+            { "lang": "English", "langCode": "en", "url": "https://example.com/subs/film1-en.vtt" }
+          ],
+          "duration": 7200
+        },
+        {
+          "title": "Gölge Savaşçısı",
+          "year": 2023,
+          "thumb": "https://picsum.photos/seed/film2/300/450",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+          "subtitles": [
+            { "lang": "Türkçe", "langCode": "tr", "url": "https://example.com/subs/film2-tr.srt" }
+          ],
+          "duration": 5400
+        },
+        {
+          "title": "Son Darbe",
+          "year": 2024,
+          "thumb": "https://picsum.photos/seed/film3/300/450",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+          "duration": 6300
+        }
+      ]
+    },
+    {
+      "id": "komedi-filmleri",
+      "name": "Komedi Filmleri",
+      "category": "komedi",
+      "type": "movie",
+      "thumb": "https://picsum.photos/seed/komedi-liste/400/600",
+      "items": [
+        {
+          "title": "Kahkaha Tufanı",
+          "year": 2024,
+          "thumb": "https://picsum.photos/seed/komedi1/300/450",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+          "subtitles": [
+            { "lang": "Türkçe", "langCode": "tr", "url": "https://example.com/subs/komedi1-tr.vtt" }
+          ],
+          "duration": 4800
+        }
+      ]
+    },
+    {
+      "id": "populer-diziler",
+      "name": "Popüler Diziler",
+      "category": "dizi",
+      "type": "series",
+      "thumb": "https://picsum.photos/seed/dizi-liste/400/600",
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            {
+              "episode": 1,
+              "title": "Başlangıç",
+              "thumb": "https://picsum.photos/seed/dizi1s1e1/300/170",
+              "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+              "subtitles": [
+                { "lang": "Türkçe", "langCode": "tr", "url": "https://example.com/subs/dizi1-s1e1-tr.vtt" }
+              ],
+              "duration": 2700
+            },
+            {
+              "episode": 2,
+              "title": "Gizem Çözülüyor",
+              "thumb": "https://picsum.photos/seed/dizi1s1e2/300/170",
+              "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+              "duration": 2600
+            },
+            {
+              "episode": 3,
+              "title": "Yüzleşme",
+              "thumb": "https://picsum.photos/seed/dizi1s1e3/300/170",
+              "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+              "subtitles": [
+                { "lang": "Türkçe", "langCode": "tr", "url": "https://example.com/subs/dizi1-s1e3-tr.srt" },
+                { "lang": "English", "langCode": "en", "url": "https://example.com/subs/dizi1-s1e3-en.vtt" }
+              ],
+              "duration": 2800
+            }
+          ]
+        },
+        {
+          "season": 2,
+          "episodes": [
+            {
+              "episode": 1,
+              "title": "Yeni Dönem",
+              "thumb": "https://picsum.photos/seed/dizi1s2e1/300/170",
+              "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+              "duration": 2750
+            },
+            {
+              "episode": 2,
+              "title": "Kayıp İz",
+              "thumb": "https://picsum.photos/seed/dizi1s2e2/300/170",
+              "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+              "subtitles": [
+                { "lang": "Türkçe", "langCode": "tr", "url": "https://example.com/subs/dizi1-s2e2-tr.vtt" }
+              ],
+              "duration": 2650
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hls-test",
+      "name": "Canlı Yayın / HLS Test",
+      "type": "movie",
+      "thumb": "https://picsum.photos/seed/hls/400/600",
+      "items": [
+        {
+          "title": "HLS Akış Testi",
+          "year": 2024,
+          "thumb": "https://picsum.photos/seed/hls1/300/450",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "duration": 0
+        },
+        {
+          "title": "DASH Akış Testi",
+          "year": 2024,
+          "thumb": "https://picsum.photos/seed/dash1/300/450",
+          "url": "https://dash.akamaized.net/envivio/EnvivioDash3/manifest.mpd",
+          "duration": 0
+        }
+      ]
+    }
+  ]
+}
